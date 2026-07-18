@@ -1,5 +1,7 @@
-# Browser-Creative-Tools
-A short collection of browser-based tools for working with illustrations, images, and lightweight animation. The focus is on tools that are easy to open, understand, and use without installing a full desktop creative suite.
+# Browser Creative Tools: A Small, Practical List
+
+A short collection of browser-based tools for working with illustrations, images, typography, calligraphy, and lightweight animation. The focus is on tools that are easy to open, understand, and use without installing a full desktop creative suite.
+
 ## Illustration animation
 
 ### Purupuru Maker
@@ -17,6 +19,24 @@ The useful distinction is that the artwork is processed locally in the browser r
 
 Website: <https://purupurumaker.app/>
 
+## Typography and calligraphy
+
+### Cute Fonts Generator
+
+[Cute Fonts Generator](https://freecutefonts.com/) turns ordinary text into decorative Unicode styles that can be copied and pasted into social bios, display names, captions, messages, and gaming profiles.
+
+It includes 48 styles, 56 copyable symbols and kaomoji, local favorites, preview-size controls, and a compatibility filter for avoiding characters that may appear as missing-glyph boxes. Text conversion happens in the browser, and no account is required.
+
+Website: <https://freecutefonts.com/>
+
+### Arabic Calligraphy Studio
+
+[Arabic Calligraphy Studio](https://arabiccalligraphy.app/) is a local-first editor for creating Arabic calligraphy with correct right-to-left shaping, joining, ligatures, and marks.
+
+The studio includes 12 self-hosted Arabic font families, autosaves projects in the browser, and exports artwork as PNG, path-based SVG, or vector PDF. It is free to use without login, and artwork is not uploaded to a cloud project.
+
+Website: <https://arabiccalligraphy.app/>
+
 ## Image editing
 
 ### Photopea
@@ -27,7 +47,15 @@ Website: <https://purupurumaker.app/>
 
 [SVGOMG](https://jakearchibald.github.io/svgomg/) provides a visual interface for optimizing SVG files. It is helpful for reducing unnecessary metadata and simplifying vector assets before using them on the web.
 
-## Image compression
+## Image file-size targeting and compression
+
+### IncreaseImgSize2KB
+
+[IncreaseImgSize2KB](https://increaseimgsize2kb.com/) resizes JPG, PNG, and WebP files to an exact, maximum, or minimum KB/MB target while keeping the image's pixel dimensions unchanged.
+
+It can process up to 20 images locally in the browser, preserve PNG and WebP transparency, convert formats, and download individual results or a batch ZIP. Files and file names are not uploaded.
+
+Website: <https://increaseimgsize2kb.com/>
 
 ### Squoosh
 
@@ -46,7 +74,8 @@ A practical sequence is:
 1. Clean up the illustration in Photopea.
 2. Add motion with Purupuru Maker.
 3. If GIF is the final format, reduce its size with Ezgif.
-4. Compress any supporting images with Squoosh.
+4. Use IncreaseImgSize2KB when the output must meet a specific KB/MB limit.
+5. Use Squoosh when visual codec comparison and manual compression control are more important than an exact file-size target.
 
 This keeps the workflow modular: use one focused tool for each job instead of opening a large editor for a small task.
 
